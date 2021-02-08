@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+body{
+ background-color: whitesmoke;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+header{
+    background-color: white; 
+}
+
+.logobox{
+    padding: 10px 15px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+.textlogo{
+    font-size: 35px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+/*fine header*/
+
+/*main*/
+.container{
+    width: 70%;
+    margin: 30px auto;
+    background-color: white;  
+    border-radius: 5px;
+}
+
+/*link*/
+.link{
+    width: 90%;
+    margin: auto;
+    height: 50px;
+}
+
+#task{
+    background-color: #2c9ec4;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+#section{
+    border: 1px solid grey;
+    color: grey;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+/*fine link*/
+
+hr{
+    border: 1px solid whitesmoke ;
+}
+
+/*list*/
+.box{
+    width: 90%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul .entity{
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+ul h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.check{
+    vertical-align: middle;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+}
+
+.nope{
+    vertical-align: middle;
+    font-size: 6px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+}
+
+.input{
+    color: white;
+    line-height: 40px;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 15px;
+}
+
+.editorial{
+    background-color: #2c9ec4;
+}
+
+.goals{
+    background-color: #9458f5;
+}
+
+.recruiting{
+    background-color: rgb(56, 184, 171);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.sales{
+    background-color: rgb(134, 223, 61);
+}
+
+.website{
+    background-color: rgb(196, 97, 196);
+}
+
+.special{
+    line-height: 40px;
+}
+/*fine list*/
+
+/*fine main*/
